@@ -4,7 +4,10 @@ This module implements the OmniVision Serial Camera Control Bus (SCCB) protocol 
 - Write Mode (3-Phase Write Transmission)
 - Read Mode (2-Phase Write Transmission, then 2-Phase Read Transmission)
 
-**Require Pull-Up on SCL and SDA pins**
+**/!\ Require Pull-Up on SCL and SDA pins /!\ **
+
+![IMG_0566](https://github.com/user-attachments/assets/07b147e6-1f4b-482a-b4ef-f4eeba0aec93)
+
 
 ## Steps
 1. Set the inputs (mode, Slave address, register address, register value) (keep unchanged until Ready signal is de-asserted)
