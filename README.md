@@ -6,7 +6,7 @@ This module implements the OmniVision Serial Camera Control Bus (SCCB) protocol 
 
 **/!\ Require Pull-Up on SCL and SDA pins /!\ **
 
-![IMG_0566](https://github.com/user-attachments/assets/07b147e6-1f4b-482a-b4ef-f4eeba0aec93)
+![IMG_0567](https://github.com/user-attachments/assets/6e2f0ceb-f834-4dc9-899e-e39ee4fc1b29)
 
 
 ## Steps
