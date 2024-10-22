@@ -22,7 +22,7 @@ This module implements the OmniVision Serial Camera Control Bus (SCCB) protocol 
 
 | Name | Description |
 | ---- | ----------- |
-| input_clock | Master Clock Frequency |
+| input_clock | Module Input Clock Frequency |
 | sccb_clock | SCCB Clock Frequency |
 
 ### Ports
