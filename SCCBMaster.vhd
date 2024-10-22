@@ -22,10 +22,10 @@
 --		5. In Read mode only, the read value is available when its validity signal is asserted
 --
 -- Generics
---		Input	-	input_clock: Master Clock Frequency
---		Output	-	sccb_clock: SCCB Clock Frequency
+--		Input	-	input_clock: Module Input Clock Frequency
+--		Output	-	sccb_clock: SCCB Serial Clock Frequency
 -- Ports
---		Input 	-	i_clock: Input Clock
+--		Input 	-	i_clock: Module Input Clock
 --		Input 	-	i_mode: Read or Write Mode ('0': Write, '1': Read)
 --		Input 	-	i_slave_addr: Address of the SCCB Slave (7 bits)
 --		Input 	-	i_reg_addr: Address of the Register to Read/Write
@@ -34,8 +34,8 @@
 --		Output 	-	o_ready: Ready State of SCCB Master ('0': Not Ready, '1': Ready)
 --		Output 	-	o_read_value_valid: Validity of value of the SCCB Slave Register ('0': Not Valid, '1': Valid)
 --		Output 	-	o_read_value: Value of the SCCB Slave Register
---		Output 	-	o_scl: SCCB Serial Clock ('0'-'Z'('1') values, working with Pull-Up)
---		In/Out 	-	io_sda: SCCB Serial Data ('0'-'Z'('1') values, working with Pull-Up)
+--		Output 	-	o_scl: SCCB Serial Clock ('0'-'Z'(as '1') values, working with Pull-Up)
+--		In/Out 	-	io_sda: SCCB Serial Data ('0'-'Z'(as '1') values, working with Pull-Up)
 ------------------------------------------------------------------------
 
 LIBRARY IEEE;
@@ -158,7 +158,7 @@ begin
 				clock_enable_x2 <= '0';
 			end if;
 
-			-- Clock Enable 1/2
+			-- Clock Enable x2
 			if (clock_divider = CLOCK_DIV_X2-1) then
 				clock_enable_x2 <= '1';
 			end if;
