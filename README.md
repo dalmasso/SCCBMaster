@@ -9,7 +9,7 @@ This module implements the OmniVision Serial Camera Control Bus (SCCB) protocol 
 ![IMG_0567](https://github.com/user-attachments/assets/6e2f0ceb-f834-4dc9-899e-e39ee4fc1b29)
 
 
-## Steps
+## Usage
 1. Set the inputs (mode, Slave address, register address, register value) (keep unchanged until Ready signal is de-asserted)
 2. Asserts Start input (available only when the SCCB Master is Ready).
 3. SCCB Master de-asserts the Ready signal
