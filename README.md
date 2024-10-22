@@ -29,7 +29,7 @@ This module implements the OmniVision Serial Camera Control Bus (SCCB) protocol 
 
 | Name | Type | Description |
 | ---- | ---- | ----------- |
-| i_clock | Input | Input Clock |
+| i_clock | Input | Module Input Clock |
 | i_mode | Input | Read or Write Mode ('0': Write, '1': Read) |
 | i_slave_addr | Input | Address of the SCCB Slave (7 bits) |
 | i_reg_addr | Input | Address of the Register to Read/Write |
