@@ -38,5 +38,5 @@ This module implements the OmniVision Serial Camera Control Bus (SCCB) protocol 
 | o_ready | Output | Ready State of SCCB Master ('0': Not Ready, '1': Ready) |
 | o_read_value_valid | Output | Validity of value of the SCCB Slave Register ('0': Not Valid, '1': Valid) |
 | o_read_value | Output | Value of the SCCB Slave Register |
-| o_scl | Output | SCCB Serial Clock ('0'-'Z'('1') values, working with Pull-Up) |
-| io_sda | InOut | SCCB Serial Data ('0'-'Z'('1') values, working with Pull-Up) |
+| o_scl | Output | SCCB Serial Clock ('0'-'Z'(as '1') values, working with Pull-Up) |
+| io_sda | InOut | SCCB Serial Data ('0'-'Z'(as '1') values, working with Pull-Up) |
