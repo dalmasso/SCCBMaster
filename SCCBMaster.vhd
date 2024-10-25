@@ -81,7 +81,7 @@ constant SCCB_READ_MODE: STD_LOGIC := '1';
 -- SCCB Transmission Start Bit
 constant TRANSMISSION_START_BIT: STD_LOGIC := '0';
 
--- SCCB Transmission Don'T Care Bit ('Z' with Pull-Up)
+-- SCCB Transmission Don't Care Bit ('Z' with Pull-Up)
 constant TRANSMISSION_DONT_CARE_BIT: STD_LOGIC := '1';
 
 ------------------------------------------------------------------------
