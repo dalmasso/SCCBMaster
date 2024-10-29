@@ -224,7 +224,7 @@ begin
 								next_state <= WRITE_SLAVE_ADDR;
 							end if;
 			
-			-- Write Register Value
+			-- Write Register Address
 			when REGISTER_WRITE =>
 							if (bit_counter(3) = '1') then
 
