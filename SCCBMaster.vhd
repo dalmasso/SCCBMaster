@@ -22,8 +22,8 @@
 --		5. In Read mode only, the read value is available when its validity signal is asserted
 --
 -- Generics
---		Input	-	input_clock: Module Input Clock Frequency
---		Output	-	sccb_clock: SCCB Serial Clock Frequency
+--		input_clock: Module Input Clock Frequency
+--		sccb_clock: SCCB Serial Clock Frequency
 -- Ports
 --		Input 	-	i_clock: Module Input Clock
 --		Input 	-	i_mode: Read or Write Mode ('0': Write, '1': Read)
